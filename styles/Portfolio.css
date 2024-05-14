@@ -1,38 +1,44 @@
 /*common shared styles*/
-body{
-    font-family: "Open Sans", sans-serif;
+body {
+  font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
 }
-.text-primary{
+
+.text-primary {
   color: #FD6E0A;
 }
+
 /*nav related styles*/
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 120px;
-    padding-right: 10px;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 120px;
+  padding-right: 10px;
 }
-.nav-title{
-    color: #181818;
-    font-size: 45px;
-    font-weight: 800;
+
+.nav-title {
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
 }
-nav > ul{
+
+nav>ul {
   display: flex;
   list-style: none;
   align-items: center;
 }
-nav li{
+
+nav li {
   margin-right: 50px;
 }
 
-nav a{
+nav a {
   text-decoration: none;
   color: #474747;
 }
-.btn-primary{
+
+.btn-primary {
   border-radius: 5px;
   background-color: #FD6E0A;
   color: white;
@@ -42,7 +48,8 @@ nav a{
   font-size: 15px;
   border: 0;
 }
-.section-title{
+
+.section-title {
   color: #181818;
   text-align: center;
   font-family: Open Sans;
@@ -51,36 +58,43 @@ nav a{
   font-weight: 700;
   line-height: normal;
 }
-.section-description{
+
+.section-description {
   color: #474747;
   text-align: center;
   font-family: Open Sans;
   font-size: 18px;
 }
+
 /*Header Related styles  */
- .Header{
+.Header {
   background-color: #FFF8F3;
   background-image: url('../images/header_bg.png');
   background-repeat: no-repeat;
   background-position: bottom right;
 }
-.banner{
+
+.banner {
   padding: 30px 30px 0px 120px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.banner .profile-pic{
+
+.banner .profile-pic {
   width: 500px;
 }
-.banner-content{
+
+.banner-content {
   max-width: 500px;
 }
-.banner-subtitle{
+
+.banner-subtitle {
   font-size: 45px;
   margin-bottom: 0;
 }
-.banner-title{
+
+.banner-title {
   font-size: 85px;
   font-weight: 700;
   font-style: normal;
@@ -88,27 +102,70 @@ nav a{
   margin-bottom: 5px;
 }
 
- /*main section styles  */
+/*main section styles  */
 
- main{
+main {
   max-width: 1140px;
   margin: 0 auto;
- }
+}
 
- /* about section styles */
- .about{
+
+/* about section styles */
+.about {
   padding: 130px;
   border-radius: 10px;
   background: #FFF8F3;
   margin: 120px;
- }
- .about-info-container{
+}
+
+.about-info-container {
   display: flex;
   justify-content: space-around;
- }
- .about-info{
+}
+
+.about-info {
   text-align: center;
- }
- #what-i-do-description{
-   padding: 30px 150px;
- }
+}
+
+/* Skills Related styles */
+
+
+#what-i-do-description {
+  padding: 30px 150px;
+}
+
+.skill-container {
+  display: flex;
+  padding: 20px;
+  gap: 24px;
+
+}
+
+.skill {
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  opacity: 0.8;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.skill:hover {
+  opacity: 1.2;
+}
+
+.skill-description {
+  padding: 20px;
+}
+
+
+/* resume related styles */
+
+
+
+.resume-column-title {
+  color: #757575;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+}
