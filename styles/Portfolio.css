@@ -28,7 +28,9 @@ nav>ul {
   list-style: none;
   align-items: center;
 }
-
+nav li:hover{
+  text-decoration: underline;
+}
 nav li {
   margin-right: 50px;
 }
@@ -191,4 +193,29 @@ main {
 }
 .download-cv{
   text-align: center;
+  margin-top: 50px;
+}
+
+/* Footer Style */
+
+footer{
+  display: flex;
+  gap: 100px;
+  background: #FFF8F3;
+  padding: 130px;
+}
+
+.footer-column{
+  width: 50%;
+
+}
+
+.contact input[type="text"], .contact input[type="email"] ,textarea{
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 35px;
+  color: #757575;
+  background-color: #fff;
+  border-radius: 5px;
+  border:none;
 }
